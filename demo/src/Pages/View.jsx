@@ -21,6 +21,7 @@ function View() {
     useEffect(() => {
         let all = JSON.parse(localStorage.getItem('user')) ? JSON.parse(localStorage.getItem('user')) : [];
         setData(all)
+         
     },[])
  
     useEffect(() => {
